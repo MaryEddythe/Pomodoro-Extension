@@ -30,24 +30,28 @@ body {
 }
 
 #settings-icon {
-    margin-top: 15px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
     cursor: pointer;
 }
 
-#settings-icon svg {
-    fill: #4CAF50;
-    width: 30px;
-    height: 30px;
-}
-
 #settings {
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 #custom-time {
     padding: 5px;
     font-size: 1em;
     margin-right: 5px;
+}
+
+#stop {
+    background-color: #f44336; /* Red */
+}
+
+#stop:hover {
+    background-color: #e53935;
 }
 
 .hidden {
