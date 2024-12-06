@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Pomodoro Timer",
+  "name": "Neurodite",
   "version": "1.0",
   "description": "A simple Pomodoro timer to help manage work and break times.",
   "permissions": ["alarms", "notifications", "storage"],

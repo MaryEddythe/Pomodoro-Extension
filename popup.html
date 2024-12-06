@@ -1,26 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Pomodoro Timer</title>
-  <link rel="stylesheet" type="text/css" href="popup.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Timer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="popup.css">
 </head>
 <body>
-  <div id="main-timer">
-    <div id="timer">25:00</div>
-    <button id="start" class="button">Start</button>
-    <button id="stop" class="button hidden">Stop</button>
-    <button id="reset" class="button hidden">Reset</button>
-  </div>
+    <div id="popup-container">
+        <div id="main-timer">
+            <div id="timer">25:00</div>
+            <button id="start" class="button">Start</button>
+            <button id="stop" class="button hidden">Stop</button>
+            <button id="reset" class="button hidden">Reset</button>
+        </div>
 
-  <div id="settings" class="hidden">
-    <input type="number" id="custom-time" placeholder="Set time (1-60 min)">
-    <button id="set-time" class="button">Set Time</button>
-  </div>
+        <div id="settings" class="hidden">
+            <input type="number" id="custom-time" placeholder="Set time (1-60 min)" min="1" max="60">
+            <button id="set-time" class="button">Set Time</button>
+        </div>
 
-  <div id="settings-icon">
-    <img src="images/settings.png" width="15" height="15" />
-  </div>
+        <div id="settings-icon" onclick="toggleSettings()">
+            <img src="images/settings.png" width="20" height="20" />
+        </div>
+    </div>
 
-  <script src="popup.js"></script>
+    <script src="popup.js"></script>
 </body>
 </html>
