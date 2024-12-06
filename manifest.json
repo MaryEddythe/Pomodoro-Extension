@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Pomodoro Timer",
+  "version": "1.0",
+  "description": "A simple Pomodoro timer to help you manage your work and break times.",
+  "permissions": ["alarms", "notifications"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/plant.png",
+      "48": "images/succulent.png",
+      "128": "images/time.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "images/plant.png",
+    "48": "images/succulent.png",
+    "128": "images/time.png"
+  }
+}

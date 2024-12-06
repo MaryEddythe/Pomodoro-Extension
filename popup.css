@@ -1,0 +1,55 @@
+body {
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+#timer {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+}
+
+.button {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+.button.hidden {
+    display: none;
+}
+
+#settings-icon {
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+#settings-icon svg {
+    fill: #4CAF50;
+    width: 30px;
+    height: 30px;
+}
+
+#settings {
+    margin-top: 10px;
+}
+
+#custom-time {
+    padding: 5px;
+    font-size: 1em;
+    margin-right: 5px;
+}
+
+.hidden {
+    display: none;
+}
